@@ -1,0 +1,4 @@
+Order Deny,Allow
+Allow from all
+# ALLOW-LIST-START
+# ALLOW-LIST-END
