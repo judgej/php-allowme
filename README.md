@@ -16,12 +16,9 @@ list having to be maintained by anyone centrally. It is just a convenience.
 
 Quickstart usage:
 
-1. Clone this repo to a folder in the root web directory of your site:
-
-$ git submodule add git@github.com:judgej/php-allowme.git allowme
-
-or
-
+1. Clone this repo to a folder in the root web directory of your site:  
+$ git submodule add git@github.com:judgej/php-allowme.git allowme  
+or  
 $ git clone git@github.com:judgej/php-allowme.git allowme
 
 2. Make sure you have a .htaccess file in your web root folder and that 
