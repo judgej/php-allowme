@@ -13,3 +13,28 @@ Google seems to find out about anything.
 
 Clients can access the site from dynamic home broadband IPs without the
 list having to be maintained by anyone centrally. It is just a convenience.
+
+Quickstart usage:
+
+1. Clone this repo to a folder in the root web directory of your site:
+
+$ git submodule add git@github.com:judgej/php-allowme.git allowme
+
+or
+
+$ git clone git@github.com:judgej/php-allowme.git allowme
+
+2. Make sure you have a .htaccess file in your web root folder and that 
+the apache process is able to write to it.
+
+3. Go to the "allowme" script to start:
+
+http://your.domain.example.com/allowme
+
+This will create a section in .htaccess that will deny access to all IP
+addresses by default, but add your IP address as an exception. Every remote
+IP that accesses the allowme page, will have their IP address added to the
+exception list.
+
+There is no further security on the script at present, but simple passwords
+can be added if there is a demand.
